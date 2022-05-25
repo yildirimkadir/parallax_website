@@ -8,7 +8,7 @@ div.content1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 750px;
+    height: 100vh;
     margin: auto;
     background-image: url(./img/bg.jpg);
     background-size: cover;
@@ -37,6 +37,7 @@ div.content1 h1 {
     background-color: #F1F1F1;
     width: 100%;
     height: 250px;
+    overflow: auto;
 }
 .full-stack-text h3 {
     font-size: 24px;
@@ -77,9 +78,175 @@ div.clarus-img {
     z-index: -1;   
     opacity: 1; */
 }
-div.clarus-img img {
+/* div.clarus-img img {
     text-align: center;
-    opacity: ;
 }
+    opacity: */
 
-
+.aws-section {
+    background-color: #282E34;
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+.aws-section h3 {
+    font-size: 24px;
+    font-family: "Lato";
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 0.1rem;
+    /* margin-top: 1rem; */
+    padding: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.aws-section p {
+    color: #fff;
+    font-family: sans-serif, "Lato";
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0 3rem;
+}
+.reinvent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg3.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+.reinvent h1 {
+    text-align: center;
+    padding: 2rem;
+    width: 600px;
+    height: 100px;
+    /* border: 1px solid red; */
+    /* border-radius: 3px; */
+    color: white;
+    background-color: #4D4D4D;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    outline: 5px solid chocolate;
+    outline-offset: 10px;
+}
+.ds-section {
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+.ds-section h3 {
+    font-size: 24px;
+    font-family: "Lato";
+    color: #666666;
+    font-weight: bolder;
+    margin-bottom: 0.1rem;
+    /* margin-top: 1rem; */
+    padding: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.ds-section p {
+    font-family: sans-serif, "Lato";
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0 3rem;
+}
+.clarusway-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg4.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+.clarusway-team h1 {
+    text-align: center;
+    padding: 2rem;
+    width: 600px;
+    height: 100px;
+    /* border: 1px solid red; */
+    /* border-radius: 3px; */
+    color: white;
+    background-color: #4D4D4D;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    outline: 5px solid sienna;
+    outline-offset: 10px;
+}
+.why-clarusway {
+    background-color: #282E34;
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+.why-clarusway h3 {
+    font-size: 24px;
+    font-family: "Lato";
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 0.1rem;
+    /* margin-top: 1rem; */
+    padding: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.why-clarusway p {
+    color: #fff;
+    font-family: sans-serif, "Lato";
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0 3rem;
+}
+.future {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg1.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+.future h1 {
+    text-align: center;
+    padding: 2rem;
+    width: 600px;
+    height: 100px;
+    /* border: 1px solid red; */
+    /* border-radius: 3px; */
+    color: white;
+    background-color: #4D4D4D;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    outline: 5px solid seagreen;
+    outline-offset: 10px;
+}
